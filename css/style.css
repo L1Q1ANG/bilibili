@@ -1,0 +1,286 @@
+body, html {
+  width: 100%;
+  height: 100%; }
+
+#bili-wrap {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical; }
+  #bili-wrap .bili-header {
+    width: 100%; }
+    #bili-wrap .bili-header .bili-header-bar {
+      width: 100%;
+      height: 42px;
+      border-bottom: 1px solid #ccc; }
+      #bili-wrap .bili-header .bili-header-bar .header-bar {
+        height: 42px;
+        margin: 0 10px;
+        display: -webkit-box;
+        -webkit-box-align: center; }
+        #bili-wrap .bili-header .bili-header-bar .header-bar .icon {
+          width: 42px;
+          height: 42px;
+          margin-left: 10px;
+          display: -webkit-box;
+          -webkit-box-pack: center;
+          -webkit-box-align: center; }
+          #bili-wrap .bili-header .bili-header-bar .header-bar .icon i {
+            width: 22px;
+            height: 22px;
+            display: block;
+            background-image: url(../img/ui_3@2x.png);
+            background-size: 274px auto; }
+            #bili-wrap .bili-header .bili-header-bar .header-bar .icon i.bili-left {
+              background-position: 0 -205px; }
+            #bili-wrap .bili-header .bili-header-bar .header-bar .icon i.bili-right {
+              background-position: -22px -205px; }
+          #bili-wrap .bili-header .bili-header-bar .header-bar .icon.logo {
+            height: 28px; }
+            #bili-wrap .bili-header .bili-header-bar .header-bar .icon.logo img {
+              display: block;
+              height: 100%; }
+        #bili-wrap .bili-header .bili-header-bar .header-bar.header-bar-left {
+          float: left; }
+        #bili-wrap .bili-header .bili-header-bar .header-bar.header-bar-right {
+          float: right;
+          display: -webkit-box;
+          -webkit-box-pack: center; }
+    #bili-wrap .bili-header h3 {
+      display: block;
+      text-align: center;
+      font-size: 22px;
+      line-height: 50px;
+      font-weight: normal;
+      position: relative;
+      border-bottom: 1px solid #ccc; }
+      #bili-wrap .bili-header h3 a {
+        position: absolute;
+        left: 10px;
+        top: -5px;
+        font-size: 50px;
+        display: block; }
+    #bili-wrap .bili-header .bili-nav {
+      width: 100%;
+      height: 40px;
+      display: -webkit-box;
+      border-bottom: 1px solid #ccc; }
+      #bili-wrap .bili-header .bili-nav a {
+        -webkit-box-flex: 1;
+        display: block;
+        text-align: center;
+        color: #666;
+        line-height: 40px; }
+        #bili-wrap .bili-header .bili-nav a.active {
+          border-bottom: 2px solid #de698c; }
+    #bili-wrap .bili-header .all-num a {
+      position: relative; }
+      #bili-wrap .bili-header .all-num a i {
+        position: absolute;
+        top: 50%;
+        margin-top: -11px;
+        margin-left: -48px;
+        left: 50%;
+        width: 20px;
+        height: 20px;
+        background: url(../img/rank_icon.png) center no-repeat;
+        background-size: 20px; }
+  #bili-wrap .bili-main {
+    width: 100%;
+    overflow: hidden; }
+    #bili-wrap .bili-main .bili-banner {
+      width: 100%; }
+      #bili-wrap .bili-main .bili-banner .box img {
+        float: left; }
+    #bili-wrap .bili-main .bili-main-list {
+      width: 100%;
+      height: auto; }
+      #bili-wrap .bili-main .bili-main-list .main-type {
+        padding: 10px;
+        box-sizing: border-box; }
+        #bili-wrap .bili-main .bili-main-list .main-type .main-bar {
+          width: 100%;
+          height: 40px;
+          display: -webkit-box;
+          -webkit-box-align: center;
+          -webkit-box-pack: justify; }
+          #bili-wrap .bili-main .bili-main-list .main-type .main-bar .main-bar-group {
+            display: -webkit-box;
+            -webkit-box-align: center; }
+            #bili-wrap .bili-main .bili-main-list .main-type .main-bar .main-bar-group .icon {
+              display: -webkit-box;
+              -webkit-box-pack: center;
+              -webkit-box-align: center; }
+              #bili-wrap .bili-main .bili-main-list .main-type .main-bar .main-bar-group .icon i {
+                width: 22px;
+                height: 22px;
+                display: block;
+                background-image: url(../img/index@2x.png);
+                background-size: 30px auto;
+                margin-right: 10px; }
+                #bili-wrap .bili-main .bili-main-list .main-type .main-bar .main-bar-group .icon i.bili-left {
+                  background-position: -5px -215px; }
+                #bili-wrap .bili-main .bili-main-list .main-type .main-bar .main-bar-group .icon i.bili-right {
+                  background-position: -5px -63px; }
+                #bili-wrap .bili-main .bili-main-list .main-type .main-bar .main-bar-group .icon i.live {
+                  background-position: -5px -155px; }
+                #bili-wrap .bili-main .bili-main-list .main-type .main-bar .main-bar-group .icon i.more-live {
+                  background-position: -5px -393px;
+                  margin-left: 5px; }
+                #bili-wrap .bili-main .bili-main-list .main-type .main-bar .main-bar-group .icon i.fanju {
+                  background-position: -5px -365px; }
+                #bili-wrap .bili-main .bili-main-list .main-type .main-bar .main-bar-group .icon i.more-fanju {
+                  background-position: -5px -393px;
+                  margin-left: 5px; }
+                #bili-wrap .bili-main .bili-main-list .main-type .main-bar .main-bar-group .icon i.hot {
+                  background-image: url(../img/ui_2.png);
+                  background-size: 360px auto;
+                  background-position: 0 -462px; }
+                #bili-wrap .bili-main .bili-main-list .main-type .main-bar .main-bar-group .icon i.new {
+                  background-image: url(../img/ui_2.png);
+                  background-size: 360px auto;
+                  background-position: -30px -462px; }
+                #bili-wrap .bili-main .bili-main-list .main-type .main-bar .main-bar-group .icon i.phone {
+                  background-image: url(../img/ui_2.png);
+                  background-size: 360px auto;
+                  background-position: 0 -494px; }
+              #bili-wrap .bili-main .bili-main-list .main-type .main-bar .main-bar-group .icon.logo {
+                height: 28px; }
+                #bili-wrap .bili-main .bili-main-list .main-type .main-bar .main-bar-group .icon.logo img {
+                  display: block;
+                  height: 100%; }
+        #bili-wrap .bili-main .bili-main-list .main-type .main-list {
+          width: 100%; }
+          #bili-wrap .bili-main .bili-main-list .main-type .main-list dl {
+            width: 50%;
+            float: left; }
+            #bili-wrap .bili-main .bili-main-list .main-type .main-list dl dt img {
+              width: 100%; }
+            #bili-wrap .bili-main .bili-main-list .main-type .main-list dl dd {
+              padding-bottom: 10px; }
+              #bili-wrap .bili-main .bili-main-list .main-type .main-list dl dd h3 {
+                font-weight: normal; }
+              #bili-wrap .bili-main .bili-main-list .main-type .main-list dl dd .meta {
+                width: 100%;
+                display: -webkit-box;
+                -webkit-box-pack: justify; }
+                #bili-wrap .bili-main .bili-main-list .main-type .main-list dl dd .meta span {
+                  display: -webkit-box; }
+                  #bili-wrap .bili-main .bili-main-list .main-type .main-list dl dd .meta span .icon {
+                    width: 22px;
+                    height: 22px;
+                    display: block;
+                    background-image: url(../img/index@2x.png);
+                    background-size: 30px auto; }
+                    #bili-wrap .bili-main .bili-main-list .main-type .main-list dl dd .meta span .icon.icon-play {
+                      background-position: -5px -422px; }
+                    #bili-wrap .bili-main .bili-main-list .main-type .main-list dl dd .meta span .icon.icon-danmu {
+                      background-position: -5px -442px; }
+              #bili-wrap .bili-main .bili-main-list .main-type .main-list dl dd .live-left {
+                width: 56px; }
+                #bili-wrap .bili-main .bili-main-list .main-type .main-list dl dd .live-left img {
+                  width: 100%;
+                  display: block;
+                  overflow: hidden;
+                  border-radius: 100%;
+                  margin-top: -20px; }
+                #bili-wrap .bili-main .bili-main-list .main-type .main-list dl dd .live-left span {
+                  width: 90%;
+                  height: 16px;
+                  background: #ccc;
+                  color: #fff;
+                  text-align: center;
+                  display: block;
+                  border-radius: 3px;
+                  font-size: 12px;
+                  marign: 0 auto;
+                  margin-top: 2px; }
+              #bili-wrap .bili-main .bili-main-list .main-type .main-list dl dd .live-right {
+                -webkit-box-flex: 1; }
+                #bili-wrap .bili-main .bili-main-list .main-type .main-list dl dd .live-right h3 {
+                  line-height: 36px; }
+                #bili-wrap .bili-main .bili-main-list .main-type .main-list dl dd .live-right p {
+                  color: #999;
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+                  white-space: nowrap; }
+            #bili-wrap .bili-main .bili-main-list .main-type .main-list dl:nth-child(odd) {
+              padding-right: 5px;
+              box-sizing: border-box; }
+            #bili-wrap .bili-main .bili-main-list .main-type .main-list dl:nth-child(even) {
+              padding-left: 5px;
+              box-sizing: border-box; }
+          #bili-wrap .bili-main .bili-main-list .main-type .main-list.main-live dl dd {
+            display: -webkit-box; }
+          #bili-wrap .bili-main .bili-main-list .main-type .main-list.main-fanju dl {
+            width: 33.3333%; }
+            #bili-wrap .bili-main .bili-main-list .main-type .main-list.main-fanju dl:nth-child(3n-2) {
+              padding: 0 7px 0 0;
+              box-sizing: border-box; }
+            #bili-wrap .bili-main .bili-main-list .main-type .main-list.main-fanju dl:nth-child(3n-1) {
+              padding: 0 3.5px;
+              box-sizing: border-box; }
+            #bili-wrap .bili-main .bili-main-list .main-type .main-list.main-fanju dl:nth-child(3n) {
+              padding: 0 0 0 7px;
+              box-sizing: border-box; }
+            #bili-wrap .bili-main .bili-main-list .main-type .main-list.main-fanju dl dd {
+              text-align: center; }
+              #bili-wrap .bili-main .bili-main-list .main-type .main-list.main-fanju dl dd p {
+                color: #de698c; }
+  #bili-wrap .bili-main-two {
+    width: 100%;
+    background: #f2f2f2; }
+    #bili-wrap .bili-main-two dl {
+      width: 33.333%;
+      float: left;
+      position: relative; }
+      #bili-wrap .bili-main-two dl dt {
+        background-image: url("../img/ui_3@2x.png");
+        background-size: 274px 228px;
+        display: block;
+        background-position: -137px 0;
+        width: 68px;
+        height: 68px;
+        margin: 10px auto; }
+      #bili-wrap .bili-main-two dl dd {
+        text-align: center; }
+        #bili-wrap .bili-main-two dl dd span {
+          width: 20px;
+          height: 10px;
+          display: block;
+          background: #ccc;
+          position: absolute;
+          right: 20px;
+          top: 14px; }
+  #bili-wrap .ranking-list {
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    background: #eee; }
+    #bili-wrap .ranking-list dl {
+      width: 100%;
+      height: 74px;
+      display: -webkit-box;
+      -webkit-box-align: center;
+      margin: 20px 0; }
+      #bili-wrap .ranking-list dl dt {
+        width: 150px;
+        border-radius: 0 5px 5px 0;
+        overflow: hidden;
+        padding-right: 10px;
+        box-sizing: border-box;
+        display: -webkit-box; }
+        #bili-wrap .ranking-list dl dt span {
+          width: 17%;
+          display: block;
+          background: #989898;
+          text-align: center;
+          line-height: 74px;
+          border-radius: 5px 0 0 5px; }
+        #bili-wrap .ranking-list dl dt img {
+          -webkit-box-flex: 1;
+          display: block; }
+      #bili-wrap .ranking-list dl dd {
+        -webkit-box-flex: 1; }
+
+/*# sourceMappingURL=style.css.map */
